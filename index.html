@@ -1,0 +1,735 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-JLH9GD9SVR"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-JLH9GD9SVR');
+    </script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>[강원랜드 협력사] 마카오 연수 설명회 프리젠테이션</title>
+    <meta name="description" content="강원랜드 협력사 우수직원 마카오 연수 출발전 설명회용 가로 화면 자료">
+    <meta property="og:title" content="강원랜드 협력사 마카오 연수 설명회">
+    <meta property="og:description" content="2026.11.24~ · 에어마카오 · 3박4일 출발전 설명회 자료">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://indadady.github.io/261124_Macao_pr/assets/images/og-thumb.jpg">
+    <meta property="og:image:width" content="1920">
+    <meta property="og:image:height" content="1272">
+    <meta property="og:image:alt" content="마카오 야경 스카이라인">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&family=Nanum+Myeongjo:wght@700&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"></script>
+    <style>
+        :root { --tm: #004098; --tm-dark: #002d6b; }
+        * { box-sizing: border-box; }
+        html, body { margin: 0; height: 100%; overflow: hidden; font-family: 'Noto Sans KR', sans-serif; background: #0f172a; color: #1e293b; }
+        .deck { height: 100%; width: 100%; position: relative; }
+        .slide {
+            display: none;
+            position: absolute; inset: 0;
+            padding: 4.4rem 3.2rem 3.6rem;
+            overflow: hidden;
+        }
+        .slide.active { display: flex; flex-direction: column; }
+        .hero-slide {
+            background: linear-gradient(rgba(15,23,42,.55), rgba(15,23,42,.78)), url('assets/images/hero.jpg') center/cover no-repeat;
+            color: #fff;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        .chrome {
+            position: fixed; left: 0; right: 0; z-index: 40;
+            display: flex; align-items: center; gap: 12px;
+        }
+        .chrome-top {
+            top: 0; height: 52px; padding: 0 18px;
+            background: rgba(255,255,255,.96); border-bottom: 1px solid #e2e8f0;
+        }
+        .chrome-bottom {
+            bottom: 0; height: 46px; padding: 0 18px;
+            background: rgba(15,23,42,.94); color: #e2e8f0;
+        }
+        .progress { position: absolute; left: 0; bottom: 46px; height: 3px; background: var(--tm); width: 0; z-index: 41; transition: width .25s ease; }
+        .nav-btn {
+            width: 44px; height: 44px; border-radius: 999px; border: 0; cursor: pointer;
+            background: rgba(15,23,42,.55); color: #fff; display: flex; align-items: center; justify-content: center;
+            position: fixed; top: 50%; transform: translateY(-50%); z-index: 45;
+        }
+        .nav-btn:hover { background: var(--tm); }
+        .nav-prev { left: 12px; }
+        .nav-next { right: 12px; }
+        .toc {
+            display: none; position: fixed; inset: 0; z-index: 60;
+            background: rgba(15,23,42,.72); align-items: center; justify-content: center; padding: 40px;
+        }
+        .toc.open { display: flex; }
+        .k-label { font-size: 11px; font-weight: 900; letter-spacing: .14em; text-transform: uppercase; }
+        .portrait-gate {
+            display: none; position: fixed; inset: 0; z-index: 80;
+            background: #0f172a; color: #fff; align-items: center; justify-content: center; padding: 32px; text-align: center;
+        }
+        @media (orientation: portrait) and (max-width: 900px) {
+            .portrait-gate { display: flex; flex-direction: column; }
+            .deck, .chrome, .nav-btn, .progress { display: none !important; }
+        }
+        .card { background: #fff; border: 1px solid #e2e8f0; border-radius: 18px; padding: 18px 20px; }
+        .slide h2 { font-size: clamp(1.6rem, 2.6vw, 2.35rem); font-weight: 900; line-height: 1.25; word-break: keep-all; }
+        .slide p, .slide li { word-break: keep-all; }
+        .grow { flex: 1; min-height: 0; }
+        .fill-img { width: 100%; height: 100%; object-fit: cover; display: block; }
+    </style>
+</head>
+<body>
+    <div class="portrait-gate">
+        <img src="assets/images/kangwonland-logo.png" alt="강원랜드" class="h-10 mb-6">
+        <h1 class="text-2xl font-black mb-3">설명회용 가로 화면 자료입니다</h1>
+        <p class="text-slate-300 mb-6 leading-relaxed">스마트폰은 세로 스마트 가이드북을, 설명회는 가로 화면(노트북·프로젝터)을 사용해 주세요.</p>
+        <a class="bg-blue-600 hover:bg-blue-700 text-white font-bold px-6 py-3 rounded-xl" href="https://indadady.github.io/261124_Macao/">모바일 가이드북 열기</a>
+    </div>
+
+    <header class="chrome chrome-top">
+        <a href="http://tourmaker.kr" target="_blank" rel="noopener"><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgHfgIX70O5k6Anuo0UgALIdaG9jSga9auHu3uyz0uEirylGPAJnjN_qQbvEGMUvPqUQf_g9FMNUHRxlDcUBf4vZ3Mpy4TnA9WxbmzWYK11gt2zuy_Irl4wctNFjcjLyPo0GPXV792o_J7L9guRMuDfeC1gy7USwywjYbECZgzcsHybuGRRAXAnO1eNmP8/s320/logo.png" alt="Tourmaker" class="h-7"></a>
+        <span id="d-day-badge" class="bg-blue-600 text-white text-[10px] px-2.5 py-1 rounded-full font-bold">상태 계산중</span>
+        <span class="text-sm font-bold text-slate-700 truncate">강원랜드 협력사 마카오 연수 설명회</span>
+        <span class="ml-auto text-xs text-slate-500 hidden lg:inline">← → · Space · F 전체화면 · O 목차</span>
+        <a href="https://indadady.github.io/261124_Macao/" target="_blank" class="text-xs font-bold text-blue-700 bg-blue-50 border border-blue-100 px-3 py-1.5 rounded-lg">모바일 가이드북</a>
+        <button type="button" onclick="toggleToc()" class="text-xs font-bold text-slate-600 bg-slate-100 px-3 py-1.5 rounded-lg">목차</button>
+    </header>
+
+    <button type="button" class="nav-btn nav-prev" onclick="prevSlide()" aria-label="이전"><i class="fa-solid fa-chevron-left"></i></button>
+    <button type="button" class="nav-btn nav-next" onclick="nextSlide()" aria-label="다음"><i class="fa-solid fa-chevron-right"></i></button>
+    <div class="progress" id="progress"></div>
+    <footer class="chrome chrome-bottom">
+        <span id="slide-label" class="text-sm font-bold truncate">표지</span>
+        <span class="ml-auto text-sm tabular-nums" id="slide-num">1 / 1</span>
+    </footer>
+
+    <div class="toc" id="toc" onclick="if(event.target===this) toggleToc()">
+        <div class="bg-white rounded-2xl p-6 w-full max-w-4xl max-h-[80vh] overflow-auto">
+            <div class="flex justify-between items-center mb-4">
+                <h3 class="font-black text-lg">슬라이드 목차</h3>
+                <button type="button" onclick="toggleToc()" class="text-slate-500 font-bold">닫기</button>
+            </div>
+            <div id="toc-list" class="grid sm:grid-cols-2 lg:grid-cols-3 gap-2"></div>
+        </div>
+    </div>
+
+    <main class="deck">
+        <!-- 1 표지 -->
+        <section class="slide hero-slide active" id="home" data-title="표지">
+            <img src="assets/images/kangwonland-logo.png" alt="강원랜드" class="h-11 mb-6 drop-shadow-lg">
+            <span class="bg-blue-600/90 px-6 py-2 rounded-full text-sm font-bold mb-5 border border-white/20">강원랜드 협력사 우수직원 해외 연수 · 출발전 설명회</span>
+            <h1 class="text-5xl xl:text-6xl font-bold mb-4 drop-shadow-lg font-[Nanum_Myeongjo] leading-tight">마카오, 빛나는 여정의 시작<br><span class="text-yellow-400">선진 복합리조트 체험과 견문 확대</span></h1>
+            <p id="hero-date" class="text-xl text-slate-100 font-medium bg-black/40 inline-block px-6 py-2.5 rounded-xl mt-2 border border-white/10">일정 안내</p>
+            <p class="mt-8 text-sm text-white/80">키보드 ← → 또는 화면 좌우 클릭으로 진행합니다</p>
+        </section>
+
+        <!-- 2 연수 목적 -->
+        <section class="slide bg-white" id="purpose" data-title="연수 목적">
+            <p class="k-label text-blue-600 mb-2">PURPOSE</p>
+            <h2 class="text-slate-800 mb-3">연수 목적</h2>
+            <p class="text-slate-600 text-lg leading-relaxed max-w-5xl mb-6">서비스 우수 직원 여러분의 노고를 격려하고 동기부여를 통해 서비스 경쟁력을 유도하며, <strong class="text-blue-700">선진 복합리조트 시설 및 서비스 체험으로 견문을 확대</strong>하고 서비스 품질 개선 아이디어를 발굴하는 기회를 제공하고자 합니다.</p>
+            <div class="grow grid grid-cols-3 gap-5">
+                <div class="card bg-slate-50 flex flex-col justify-center">
+                    <div class="text-4xl mb-4">🎖️</div>
+                    <h3 class="font-black text-xl mb-2">노고 격려 · 동기부여</h3>
+                    <p class="text-slate-500">서비스 우수 직원의 헌신에 대한 보상과 동기부여</p>
+                </div>
+                <div class="card bg-slate-50 flex flex-col justify-center">
+                    <div class="text-4xl mb-4">🌏</div>
+                    <h3 class="font-black text-xl mb-2">견문 확대</h3>
+                    <p class="text-slate-500">세계적 복합리조트의 시설·운영·서비스 직접 체험</p>
+                </div>
+                <div class="card bg-slate-50 flex flex-col justify-center">
+                    <div class="text-4xl mb-4">💡</div>
+                    <h3 class="font-black text-xl mb-2">서비스 개선 인사이트</h3>
+                    <p class="text-slate-500">현장 벤치마킹을 통한 서비스 품질 개선 아이디어 발굴</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 3 핵심 포인트 -->
+        <section class="slide bg-slate-50" id="highlights" data-title="핵심 기획">
+            <p class="k-label text-blue-600 mb-2">SPECIAL POINTS</p>
+            <h2 class="text-slate-800 mb-5">강원랜드 협력사 맞춤 핵심 기획</h2>
+            <div class="grow grid grid-cols-3 gap-5">
+                <div class="card flex flex-col">
+                    <div class="w-14 h-14 bg-indigo-100 rounded-2xl flex items-center justify-center text-3xl mb-4">🚫</div>
+                    <h3 class="font-black text-xl mb-2">노쇼핑 · 노옵션 프리미엄 연수</h3>
+                    <p class="text-slate-600 leading-relaxed grow">성인 단체 기준 의무 쇼핑·옵션 일정을 전면 배제하여, 온전히 통합리조트 견학과 벤치마킹에 집중하는 품격 있는 연수로 구성했습니다.</p>
+                    <span class="mt-4 inline-block bg-indigo-600 text-white text-xs px-3 py-1.5 rounded-md font-bold w-fit">오직 연수 중심 기획</span>
+                </div>
+                <div class="card flex flex-col ring-2 ring-blue-500 relative">
+                    <span class="absolute -top-3 right-4 bg-blue-600 text-white text-xs font-bold px-3 py-1 rounded-full">핵심 일정</span>
+                    <div class="w-14 h-14 bg-blue-100 rounded-2xl flex items-center justify-center text-3xl mb-4">🏛️</div>
+                    <h3 class="font-black text-xl mb-2">갤럭시 · 안다즈 공식 벤치마킹</h3>
+                    <p class="text-slate-600 leading-relaxed grow">갤럭시 공식 방문 행사(Galaxy Presentation), Arena·GICC·Andaz Room 견학, 안다즈 호텔 운영 인프라(체크인 로비·키친·라운지)를 직접 체험합니다.</p>
+                    <span class="mt-4 inline-block bg-blue-600 text-white text-xs px-3 py-1.5 rounded-md font-bold w-fit">통합리조트 운영 인사이트</span>
+                </div>
+                <div class="card flex flex-col ring-2 ring-cyan-400 relative">
+                    <span class="absolute -top-3 right-4 bg-cyan-600 text-white text-xs font-bold px-3 py-1 rounded-full">작년 최고 피드백</span>
+                    <div class="w-14 h-14 bg-pink-100 rounded-2xl flex items-center justify-center text-3xl mb-4">💧</div>
+                    <h3 class="font-black text-xl mb-2">하우스 오브 댄싱 워터</h3>
+                    <p class="text-slate-600 leading-relaxed grow">작년 연수에서도 만족도가 가장 높았던 하이라이트. 3일차에 City of Dreams의 세계적 수상 공연을 관람합니다.</p>
+                    <span class="mt-4 inline-block bg-pink-600 text-white text-xs px-3 py-1.5 rounded-md font-bold w-fit">3일차 관람</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- 4 갤럭시 IR -->
+        <section class="slide bg-white" id="galaxy" data-title="갤럭시 인사이트">
+            <p class="k-label text-indigo-600 mb-2">INTEGRATED RESORT INSIGHT</p>
+            <h2 class="text-slate-800 mb-2">갤럭시 마카오 · 선진 통합리조트 인사이트</h2>
+            <p class="text-slate-500 mb-4 max-w-5xl">카지노·호텔·MICE·엔터테인먼트가 한 단지에서 작동하는 선진 통합리조트(IR) 산업을 현장에서 읽어 보는 기회입니다.</p>
+            <div class="grow grid grid-cols-12 gap-5 min-h-0">
+                <div class="col-span-7 card flex flex-col">
+                    <h3 class="font-black text-xl mb-2">갤럭시 엔터테인먼트 그룹 (GEG)</h3>
+                    <p class="text-slate-600 leading-relaxed mb-4 grow">Galaxy Entertainment Group은 코타이의 플래그십 <strong>갤럭시 마카오</strong>를 중심으로 호텔·카지노·식음·리테일·공연·컨벤션을 하나의 목적지로 연결합니다. “World-Class Asian Heart”처럼 <strong>환대와 엔터테인먼트의 결합</strong>이 핵심 경쟁력입니다.</p>
+                    <div class="grid grid-cols-3 gap-3 text-center">
+                        <div class="bg-indigo-50 rounded-xl py-3"><p class="font-black text-indigo-700 text-2xl">IR</p><p class="text-xs text-slate-600 mt-1">카지노+호텔+MICE+F&amp;B</p></div>
+                        <div class="bg-indigo-50 rounded-xl py-3"><p class="font-black text-indigo-700 text-2xl">~5,000</p><p class="text-xs text-slate-600 mt-1">객실·스위트·빌라(약)</p></div>
+                        <div class="bg-indigo-50 rounded-xl py-3"><p class="font-black text-indigo-700 text-2xl">9</p><p class="text-xs text-slate-600 mt-1">럭셔리 호텔 브랜드</p></div>
+                    </div>
+                </div>
+                <div class="col-span-5 grid gap-3">
+                    <div class="bg-indigo-900 text-white rounded-2xl p-5"><p class="text-indigo-200 text-xs font-bold mb-1">연수 취지 ①</p><h4 class="font-black mb-1">산업 시야 확장</h4><p class="text-sm text-indigo-100/90">카지노를 목적지형 복합리조트로 이해하는 관점 — 객실·식음·공연·컨벤션이 체류시간을 만듭니다.</p></div>
+                    <div class="card"><p class="text-indigo-600 text-xs font-bold mb-1">연수 취지 ②</p><h4 class="font-black mb-1">운영 벤치마킹</h4><p class="text-sm text-slate-600">안다즈 로비·키친·라운지, JW 뷔페, 브로드웨이 동선에서 고객 접점·브랜드 톤을 비교합니다.</p></div>
+                    <div class="card"><p class="text-indigo-600 text-xs font-bold mb-1">연수 취지 ③</p><h4 class="font-black mb-1">현장 적용</h4><p class="text-sm text-slate-600">환대 디테일, 공간 연출, F&amp;B 동선, 베뉴 운영을 강원랜드·협력사 현장에 가져갑니다.</p></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 5 호텔 포트폴리오 -->
+        <section class="slide bg-slate-50" id="portfolio" data-title="호텔 포트폴리오">
+            <p class="k-label text-indigo-600 mb-2">GALAXY PORTFOLIO</p>
+            <div class="flex items-end justify-between mb-4">
+                <h2 class="text-slate-800">갤럭시 부지 · 월드클래스 호텔 포트폴리오</h2>
+                <span class="text-xs font-bold bg-blue-600 text-white px-3 py-1.5 rounded-full">이번 연수 직접 체험</span>
+            </div>
+            <div class="grid grid-cols-3 gap-4 mb-4">
+                <div class="card border-2 border-blue-500 relative"><span class="absolute -top-2.5 left-4 text-[10px] font-bold bg-blue-600 text-white px-2 py-0.5 rounded">숙소</span><h4 class="font-black text-lg mt-1">Broadway Hotel</h4><p class="text-blue-700 text-sm font-bold mb-1">브로드웨이 호텔 · 전 일정 투숙</p><p class="text-sm text-slate-600">갤럭시 메인과 브리지로 연결된 부티크형 호텔. 푸드 스트리트·시어터와 인접합니다.</p></div>
+                <div class="card border-2 border-emerald-500 relative"><span class="absolute -top-2.5 left-4 text-[10px] font-bold bg-emerald-600 text-white px-2 py-0.5 rounded">벤치마킹</span><h4 class="font-black text-lg mt-1">Andaz Macau</h4><p class="text-emerald-700 text-sm font-bold mb-1">안다즈 · GICC / Arena 연계</p><p class="text-sm text-slate-600">Hyatt 라이프스타일 브랜드. 체크인 로비·키친·라운지 등 운영 인프라를 탐방합니다.</p></div>
+                <div class="card border-2 border-amber-500 relative"><span class="absolute -top-2.5 left-4 text-[10px] font-bold bg-amber-600 text-white px-2 py-0.5 rounded">중식 F&amp;B</span><h4 class="font-black text-lg mt-1">JW Marriott Macau</h4><p class="text-amber-700 text-sm font-bold mb-1">JW 메리어트 · Urban Kitchen</p><p class="text-sm text-slate-600">약 1,000실급 5성급. 스카이톱 수상 시설과 올데이 다이닝의 스케일을 관찰합니다.</p></div>
+            </div>
+            <div class="grow grid grid-cols-6 gap-3">
+                <div class="card bg-white flex items-center gap-3"><span class="text-2xl">🏛️</span><div><p class="font-bold">Galaxy Hotel</p><p class="text-xs text-slate-500">대규모 객실 운영 기준점</p></div></div>
+                <div class="card bg-white flex items-center gap-3"><span class="text-2xl">🌳</span><div><p class="font-bold">Banyan Tree</p><p class="text-xs text-slate-500">스파·웰니스 럭셔리</p></div></div>
+                <div class="card bg-white flex items-center gap-3"><span class="text-2xl">🏯</span><div><p class="font-bold">Hotel Okura</p><p class="text-xs text-slate-500">오모테나시 서비스 톤</p></div></div>
+                <div class="card bg-white flex items-center gap-3"><span class="text-2xl">💎</span><div><p class="font-bold">Ritz-Carlton</p><p class="text-xs text-slate-500">맞춤형 프리미엄</p></div></div>
+                <div class="card bg-white flex items-center gap-3"><span class="text-2xl">🦁</span><div><p class="font-bold">Raffles</p><p class="text-xs text-slate-500">헤리티지 럭셔리</p></div></div>
+                <div class="card bg-white flex items-center gap-3"><span class="text-2xl">✨</span><div><p class="font-bold">Capella</p><p class="text-xs text-slate-500">초개인화 럭셔리</p></div></div>
+            </div>
+        </section>
+
+        <!-- 6 식음료 -->
+        <section class="slide bg-white" id="dining" data-title="식음료 체험">
+            <p class="k-label text-amber-600 mb-2">F&amp;B EXPERIENCE</p>
+            <h2 class="text-slate-800 mb-4">식음료 체험 · Urban Kitchen Lunch Buffet</h2>
+            <div class="grow grid grid-cols-2 gap-6 min-h-0">
+                <div class="grid grid-rows-2 gap-3 min-h-0">
+                    <img src="assets/images/dining-urban-kitchen.jpg" alt="Urban Kitchen" class="fill-img rounded-2xl">
+                    <div class="grid grid-cols-2 gap-3 min-h-0">
+                        <img src="assets/images/dining-peking-duck.jpg" alt="북경오리" class="fill-img rounded-2xl">
+                        <img src="assets/images/dining-buffet-spread.jpg" alt="뷔페 스테이션" class="fill-img rounded-2xl">
+                    </div>
+                </div>
+                <div class="flex flex-col">
+                    <p class="text-amber-700 font-bold mb-1">3일차 중식 · JW Marriott Hotel Macau 1F</p>
+                    <p class="text-slate-600 leading-relaxed mb-4">시푸드 바, 마카오·포르투갈·토스카나, 광동·베이징·쓰촨, 일식·한식, 디저트 등 <strong>6개 존</strong>. 주요 요리는 주문 후 주방 조리분으로 제공되어 신선도와 플레이팅을 함께 관찰합니다.</p>
+                    <ul class="space-y-3 text-slate-700 mb-4">
+                        <li><strong>시그니처</strong> — 북경오리, 전복죽, 슬로쿡 프라임 비프, 포르투갈식 에그타르트</li>
+                        <li><strong>연수 포인트</strong> — 스테이션 동선, 즉시 조리·서빙 타이밍, 뷔페 위생·디스플레이</li>
+                    </ul>
+                    <div class="card bg-slate-50 mt-auto text-sm text-slate-600">올해 호텔 패키지 식음 중 가장 높은 품격의 5성급 런치뷔페입니다. 갤럭시·안다즈 벤치마킹 직후 ‘공간 운영 → 식음 서비스’를 한 흐름으로 체험합니다.</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 7 댄싱워터 -->
+        <section class="slide text-white" id="show" data-title="댄싱워터쇼" style="background: linear-gradient(180deg,#0f172a,#164e63 45%,#0f172a);">
+            <p class="k-label text-cyan-300 mb-2">SIGNATURE SHOW</p>
+            <h2 class="mb-4">하우스 오브 댄싱 워터</h2>
+            <div class="grow grid grid-cols-2 gap-6 min-h-0">
+                <div class="relative rounded-3xl overflow-hidden border border-cyan-400/20">
+                    <img src="assets/images/show-hodw-interior.jpg" alt="하우스 오브 댄싱 워터" class="fill-img">
+                    <div class="absolute bottom-0 left-0 right-0 p-5 bg-gradient-to-t from-slate-950">
+                        <p class="text-cyan-300 text-xs font-bold">THE HOUSE OF DANCING WATER</p>
+                        <p class="font-black text-lg">세계 최대급 수상 시어터 · 약 90분</p>
+                    </div>
+                </div>
+                <div class="flex flex-col">
+                    <p class="text-cyan-300 font-bold mb-2">3일차 · City of Dreams 전용 극장 · 1·2차 공통</p>
+                    <p class="text-slate-200 leading-relaxed mb-4">약 2,000석 전용 극장에서 펼쳐지는 수상·공중 아크로바틱 쇼입니다. 작년 연수에서 가장 높은 만족도를 받은 체험을 올해 3일차에 다시 만나봅니다.</p>
+                    <div class="grid grid-cols-2 gap-3 mb-4">
+                        <div class="bg-white/5 border border-white/10 rounded-xl p-4"><p class="text-cyan-300 text-2xl font-black">~90분</p><p class="text-xs text-slate-300">인터미션 없음</p></div>
+                        <div class="bg-white/5 border border-white/10 rounded-xl p-4"><p class="text-cyan-300 text-2xl font-black">2,000+</p><p class="text-xs text-slate-300">전용 극장 규모</p></div>
+                    </div>
+                    <div class="bg-white/5 border border-cyan-400/25 rounded-2xl p-4 text-sm mt-auto">시작 15분 전 입장, 촬영 규정은 현지 안내. 좌석 유도·안전 안내·공연 전후 서비스 흐름을 관찰 포인트로 남겨 주세요.</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 8 항공 -->
+        <section class="slide bg-slate-50" id="flight" data-title="항공 · 공항">
+            <p class="k-label text-blue-600 mb-2">FLIGHT &amp; AIRPORT</p>
+            <h2 class="text-slate-800 mb-4">항공 스케줄 및 인천공항 안내</h2>
+            <div class="grid grid-cols-2 gap-4 mb-4">
+                <div class="card bg-blue-50 border-blue-100 text-center py-6">
+                    <span class="text-xs bg-blue-600 text-white px-3 py-1.5 rounded-full font-bold">출국 1일차</span>
+                    <p class="font-black text-3xl mt-3">에어마카오 NX821</p>
+                    <p class="text-lg text-slate-600 mt-2">인천 14:05 → 마카오(MFM) 17:05</p>
+                </div>
+                <div class="card bg-red-50 border-red-100 text-center py-6">
+                    <span class="text-xs bg-red-600 text-white px-3 py-1.5 rounded-full font-bold">귀국 4일차</span>
+                    <p class="font-black text-3xl mt-3">에어마카오 NX826</p>
+                    <p class="text-lg text-slate-600 mt-2">마카오(MFM) 18:10 → 인천 22:45</p>
+                </div>
+            </div>
+            <div class="grid grid-cols-2 gap-3 mb-5 text-center text-sm">
+                <div class="card">1차 출발 · 2026.11.24(화) ~ 11.27(금)</div>
+                <div class="card">2차 출발 · 2026.11.30(월) ~ 12.03(목)</div>
+            </div>
+            <div class="grow grid grid-cols-4 gap-4">
+                <div class="card text-center"><p class="font-black text-blue-700 text-xl mb-1">1</p><h4 class="font-bold">2시간 30분 전 도착</h4><p class="text-sm text-slate-500 mt-1">단체 수속을 위해 집결 시간을 준수</p></div>
+                <div class="card text-center"><p class="font-black text-blue-700 text-xl mb-1">2</p><h4 class="font-bold">에어마카오 카운터</h4><p class="text-sm text-slate-500 mt-1">인솔자 안내에 따라 지정 카운터 집결</p></div>
+                <div class="card text-center"><p class="font-black text-blue-700 text-xl mb-1">3</p><h4 class="font-bold">보안 검색</h4><p class="text-sm text-slate-500 mt-1">100ml 초과 액체 금지 · 보조배터리는 기내</p></div>
+                <div class="card text-center"><p class="font-black text-blue-700 text-xl mb-1">4</p><h4 class="font-bold">탑승 게이트</h4><p class="text-sm text-slate-500 mt-1">출발 30분 전 마감 · 인솔자 안내</p></div>
+            </div>
+        </section>
+
+        <!-- 9 입국 -->
+        <section class="slide bg-amber-50" id="entry" data-title="입국 준비">
+            <p class="k-label text-amber-700 mb-2">ENTRY</p>
+            <h2 class="text-slate-800 mb-4">마카오 입국 · 출입국 준비</h2>
+            <div class="grow grid grid-cols-2 gap-6">
+                <div class="card flex flex-col justify-center">
+                    <h3 class="font-black text-xl mb-5">무비자 입국 · 입경신고서</h3>
+                    <ol class="space-y-5 text-slate-700 text-lg">
+                        <li class="flex gap-4"><span class="bg-amber-100 text-amber-700 w-8 h-8 rounded-full flex items-center justify-center font-black shrink-0">1</span>여권 <strong>유효기간 6개월 이상</strong> (잔여 사증란 확인)</li>
+                        <li class="flex gap-4"><span class="bg-amber-100 text-amber-700 w-8 h-8 rounded-full flex items-center justify-center font-black shrink-0">2</span>입국 심사 후 <strong>입경신고서</strong>는 출국 시까지 보관</li>
+                        <li class="flex gap-4"><span class="bg-amber-100 text-amber-700 w-8 h-8 rounded-full flex items-center justify-center font-black shrink-0">3</span>카지노·리조트 입장 시 <strong>만 21세 이상 여권 확인</strong> — 항시 소지</li>
+                    </ol>
+                </div>
+                <div class="card bg-amber-100/60 flex flex-col items-center justify-center text-center">
+                    <i class="fa-solid fa-passport text-7xl text-amber-600 mb-5"></i>
+                    <p class="text-lg text-slate-700 leading-relaxed">대한민국 여권 소지자는 관광 목적 무비자 입국이 가능합니다.<br><strong class="text-amber-800">출발 전 여권 유효기간을 반드시 확인해 주세요.</strong></p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 10 4일 한눈에 -->
+        <section class="slide bg-white" id="overview" data-title="3박4일 한눈에">
+            <p class="k-label text-blue-600 mb-2">ITINERARY</p>
+            <h2 class="text-slate-800 mb-4">한눈에 보는 3박 4일 <span class="text-base font-medium text-slate-500">(1차 기준 · 2차는 +6일)</span></h2>
+            <div class="grow grid grid-cols-4 gap-4">
+                <div class="card border-t-8 border-blue-600 flex flex-col">
+                    <p class="font-black text-blue-700">1일차 · 11.24(화)</p>
+                    <h3 class="font-black text-xl my-2">마카오 도착</h3>
+                    <ul class="text-sm text-slate-600 space-y-2 grow">
+                        <li>NX821 인천 14:05 → MFM 17:05</li>
+                        <li>베네시안 리조트·카지노 답사</li>
+                        <li>석식 샤브샤브 무제한</li>
+                    </ul>
+                    <p class="text-xs font-bold text-slate-500 mt-3">숙소 브로드웨이</p>
+                </div>
+                <div class="card border-t-8 border-emerald-600 flex flex-col">
+                    <p class="font-black text-emerald-700">2일차 · 11.25(수)</p>
+                    <h3 class="font-black text-xl my-2">역사지구 · 코타이</h3>
+                    <ul class="text-sm text-slate-600 space-y-2 grow">
+                        <li>성바오로 · 세나도광장</li>
+                        <li>MGM 코타이 · 타이파 빌리지</li>
+                        <li>런더너 · 파리지엥 야경</li>
+                    </ul>
+                    <p class="text-xs font-bold text-slate-500 mt-3">중 얌차 / 석 폭립·음료</p>
+                </div>
+                <div class="card border-t-8 border-pink-600 flex flex-col">
+                    <p class="font-black text-pink-700">3일차 · 11.26(목)</p>
+                    <h3 class="font-black text-xl my-2">갤럭시 벤치마킹</h3>
+                    <ul class="text-sm text-slate-600 space-y-2 grow">
+                        <li>11:00 갤럭시 공식 방문</li>
+                        <li>안다즈 인프라 · 메리어트 뷔페</li>
+                        <li>하우스 오브 댄싱 워터</li>
+                    </ul>
+                    <p class="text-xs font-bold text-slate-500 mt-3">도보 이동 · 석 복룡식당</p>
+                </div>
+                <div class="card border-t-8 border-teal-600 flex flex-col">
+                    <p class="font-black text-teal-700">4일차 · 11.27(금)</p>
+                    <h3 class="font-black text-xl my-2">반도 답사 · 귀국</h3>
+                    <ul class="text-sm text-slate-600 space-y-2 grow">
+                        <li>MGM 마카오 · 윈 마카오</li>
+                        <li>그랜드 리스보아 · 샌즈</li>
+                        <li>NX826 18:10 → 인천 22:45</li>
+                    </ul>
+                    <p class="text-xs font-bold text-slate-500 mt-3">조 호텔식 / 중 한식</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 11 Day1 -->
+        <section class="slide bg-slate-50" id="day1" data-title="1일차">
+            <div class="flex items-center gap-4 mb-4">
+                <div class="bg-blue-600 text-white text-xl font-black w-14 h-14 rounded-xl flex items-center justify-center">1일</div>
+                <div>
+                    <h2 class="text-slate-800">11.24(화) 인천 출발 · 마카오 도착</h2>
+                    <p class="text-slate-500">1차 기준 · 2차는 11.30 · 석식 샤브샤브 무제한</p>
+                </div>
+            </div>
+            <div class="grow grid grid-cols-2 gap-6 min-h-0">
+                <img src="assets/images/day1-venetian.jpg" alt="베네시안 마카오" class="fill-img rounded-2xl">
+                <div class="flex flex-col justify-center space-y-4">
+                    <div class="card"><p class="font-black">14:05 인천 출발 (에어마카오 NX821)</p><p class="text-slate-500 mt-1">17:05 마카오 국제공항 도착 · 가이드 미팅</p></div>
+                    <div class="card"><p class="font-black">베네시안 리조트 및 카지노 답사</p><p class="text-slate-500 mt-1">세계 최대 규모 통합리조트의 첫인상</p></div>
+                    <div class="card"><p class="font-black">석식 후 호텔 투숙 · 휴식</p><p class="text-slate-500 mt-1">BROADWAY MACAU HOTEL</p></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 12 Day2 -->
+        <section class="slide bg-white" id="day2" data-title="2일차">
+            <div class="flex items-center gap-4 mb-4">
+                <div class="bg-emerald-600 text-white text-xl font-black w-14 h-14 rounded-xl flex items-center justify-center">2일</div>
+                <div>
+                    <h2 class="text-slate-800">11.25(수) 역사지구 · 코타이 핵심 답사</h2>
+                    <p class="text-slate-500">1차 기준 · 2차는 12.01 · 조 호텔식 / 중 얌차 / 석 폭립·음료</p>
+                </div>
+            </div>
+            <div class="grow grid grid-cols-2 gap-6 min-h-0">
+                <img src="assets/images/day2-stpaul.jpg" alt="성바오로 성당" class="fill-img rounded-2xl">
+                <div class="grid grid-rows-5 gap-2">
+                    <div class="card py-3"><strong>성바오로 성당 · 몬테요새 · 성도미니크</strong><span class="text-slate-500 text-sm ml-2">육포거리 · 쿠키거리 · 세나도광장</span></div>
+                    <div class="card py-3"><strong>MGM 코타이 (SEA ODYSSEY)</strong> 및 카지노 답사</div>
+                    <div class="card py-3"><strong>올드 타이파 빌리지</strong> 관람</div>
+                    <div class="card py-3"><strong>런더너 마카오</strong> 근위병 교대식 및 카지노 답사</div>
+                    <div class="card py-3"><strong>코타이 스트립 야경 · 파리지엥 에펠타워</strong> 내부</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 13 Day3 -->
+        <section class="slide bg-slate-50" id="day3" data-title="3일차">
+            <div class="flex items-center gap-4 mb-4">
+                <div class="bg-pink-600 text-white text-xl font-black w-14 h-14 rounded-xl flex items-center justify-center">3일</div>
+                <div>
+                    <h2 class="text-slate-800">11.26(목) 갤럭시 · 안다즈 공식 벤치마킹</h2>
+                    <p class="text-slate-500">1차 기준 · 2차는 12.02 · 도보 이동 · 중 메리어트 뷔페 / 석 복룡식당</p>
+                </div>
+            </div>
+            <div class="grow grid grid-cols-2 gap-6 min-h-0">
+                <img src="assets/images/day3-galaxy.jpg" alt="갤럭시 마카오" class="fill-img rounded-2xl">
+                <div class="space-y-2 overflow-auto">
+                    <div class="card bg-blue-50 border-blue-100 text-sm text-blue-900">숙소(브로드웨이)·갤럭시·시티오브드림즈가 도보권이라 이날은 전용차량 없이 이동합니다. 갤럭시 공식 견학 세부 프로그램은 현지 요청 중이며, 안내 전까지 작년(2025년) 기준으로 설명드립니다.</div>
+                    <div class="card py-3"><strong>호텔 조식 후 오전 자유 휴식</strong></div>
+                    <div class="card py-3"><strong>11:00 갤럭시 공식 방문 행사</strong><br><span class="text-sm text-slate-500">Galaxy Presentation / Meeting Room 23 · Arena · Andaz Room · GICC</span></div>
+                    <div class="card py-3"><strong>안다즈 운영 인프라 탐방</strong> · 6F 체크인 로비 · Kitchen · 라운지</div>
+                    <div class="card py-3"><strong>중식 · JW 메리어트 어반 키친 런치뷔페</strong></div>
+                    <div class="card py-3 bg-cyan-50 border-cyan-100"><strong>하우스 오브 댄싱 워터 쇼 관람</strong></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 14 Day4 -->
+        <section class="slide bg-white" id="day4" data-title="4일차">
+            <div class="flex items-center gap-4 mb-4">
+                <div class="bg-teal-600 text-white text-xl font-black w-14 h-14 rounded-xl flex items-center justify-center">4일</div>
+                <div>
+                    <h2 class="text-slate-800">11.27(금) 마카오 반도 답사 · 귀국</h2>
+                    <p class="text-slate-500">1차 기준 · 2차는 12.03 · 조 호텔식 / 중 한식</p>
+                </div>
+            </div>
+            <div class="grow grid grid-cols-2 gap-6 min-h-0">
+                <img src="assets/images/day4-grandlisboa.jpg" alt="그랜드 리스보아" class="fill-img rounded-2xl">
+                <div class="flex flex-col justify-center space-y-3">
+                    <div class="card py-4"><strong>호텔 조식 후 체크아웃</strong></div>
+                    <div class="card py-4"><strong>MGM 마카오</strong> 그랜드 프라사 쇼 및 카지노 답사</div>
+                    <div class="card py-4"><strong>윈 마카오</strong> 나무 쇼 · 그랜드 리스보아 답사</div>
+                    <div class="card py-4"><strong>샌즈 마카오</strong> 피셔맨즈 워프</div>
+                    <div class="card py-4 bg-blue-50 border-blue-100"><strong>18:10 마카오 출발 (NX826) · 인천 22:45 도착</strong></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 15 숙소 -->
+        <section class="slide bg-slate-50" id="hotel" data-title="숙소">
+            <p class="k-label text-indigo-600 mb-2">ACCOMMODATION</p>
+            <h2 class="text-slate-800 mb-4">숙박 시설 · BROADWAY HOTEL MACAU</h2>
+            <div class="grow grid grid-cols-2 gap-6 min-h-0">
+                <img src="assets/images/hotel.jpg" alt="브로드웨이 호텔 마카오" class="fill-img rounded-2xl">
+                <div class="flex flex-col justify-center space-y-4">
+                    <p class="text-indigo-700 font-black text-lg">브로드웨이 호텔 마카오 · 4.5성급 · 전 일정 3박</p>
+                    <div class="card"><strong>갤럭시 마카오 단지 인접</strong><p class="text-slate-500 mt-1">전용 링크 브리지로 갤럭시 시설 이용이 편리합니다.</p></div>
+                    <div class="card"><strong>320실 이상 고급 부티크 객실</strong><p class="text-slate-500 mt-1">무료 Wi-Fi · 헬스장 · 야외 풀장</p></div>
+                    <div class="card"><strong>브로드웨이 미식 거리 도보권</strong><p class="text-slate-500 mt-1">메인 단지에서 살짝 분리되어 조용하면서도 갤럭시 시설을 바로 이용할 수 있습니다.</p></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 16 준비물 -->
+        <section class="slide bg-white" id="check" data-title="준비물">
+            <p class="k-label text-blue-600 mb-2">PREPARATION</p>
+            <h2 class="text-slate-800 mb-4">연수 참가자 준비물</h2>
+            <div class="grow grid grid-cols-4 gap-3 text-sm">
+                <div class="card">여권 (유효기간 6개월 이상)</div>
+                <div class="card">여권 사본 / 비상 연락처</div>
+                <div class="card">항공 이티켓 · 일정 안내문</div>
+                <div class="card">멀티 어댑터 (BF 3구형)</div>
+                <div class="card">충전기 · 보조배터리</div>
+                <div class="card">개인 상비약</div>
+                <div class="card">편한 운동화 (도보 답사 多)</div>
+                <div class="card">얇은 자켓·가디건</div>
+                <div class="card">우산 또는 접이식 우비</div>
+                <div class="card">환전(HKD) · 신용카드</div>
+                <div class="card">명함 (벤치마킹 행사용)</div>
+                <div class="card">필기구 · 메모수첩</div>
+                <div class="card">세면도구 · 렌즈/안경</div>
+                <div class="card">마스크 · 손소독제</div>
+                <div class="card">이어폰 · 수면안대</div>
+                <div class="card bg-blue-50 border-blue-100 font-bold text-blue-800">11월 낮 25℃ 안팎 · 아침저녁 선선</div>
+            </div>
+        </section>
+
+        <!-- 17 안전 1 -->
+        <section class="slide bg-white" id="safety" data-title="안전 안내">
+            <p class="k-label text-red-600 mb-2">SAFETY · 담당자 요청</p>
+            <h2 class="text-slate-800 mb-2">마카오 비상 대응 &amp; 안전 정보</h2>
+            <p class="text-slate-500 mb-4">브로드웨이 호텔을 중심으로 한 주변 시설·주의사항을 설명회용으로 정리했습니다.</p>
+            <div class="grow grid grid-cols-3 gap-4">
+                <div class="card bg-slate-50 flex flex-col">
+                    <h3 class="font-black text-lg mb-2">여행 시 주의사항</h3>
+                    <p class="text-slate-600 leading-relaxed grow">마카오는 동서양 문화가 공존하는 도시입니다. 카지노 출입 시 <strong>신분증(여권) 지참</strong>이 필수이며, <strong>촬영 금지 구역</strong>을 지키고 교통·위생 수칙을 준수해 주세요.</p>
+                    <p class="text-xs text-slate-500 mt-3">만 21세 미만 카지노 출입 불가</p>
+                </div>
+                <div class="card bg-blue-50 border-blue-100 flex flex-col">
+                    <h3 class="font-black text-lg mb-2">숙소 특징</h3>
+                    <p class="text-slate-600 leading-relaxed grow">코타이 브로드웨이 호텔(4.5성급)은 베네시안·갤럭시와 가깝고, 공항에서 차량 약 5분 거리입니다. 레스토랑·쇼핑·카지노 등 부대시설을 호텔 권역에서 이용합니다.</p>
+                </div>
+                <div class="card bg-indigo-50 border-indigo-100 flex flex-col">
+                    <h3 class="font-black text-lg mb-2">주변 환경</h3>
+                    <p class="text-slate-600 leading-relaxed grow">대형 카지노 리조트·쇼핑몰이 밀집하고, 타이파 빌리지·코타이 스트립이 인접합니다. 야간 이동 시에도 인솔자·가이드 동선을 우선해 주세요.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 18 안전 2 병원 경찰 -->
+        <section class="slide bg-red-50" id="safety-hospital" data-title="병원 · 경찰">
+            <p class="k-label text-red-600 mb-2">EMERGENCY</p>
+            <h2 class="text-slate-800 mb-4">인근 병원 · 경찰 · 소방</h2>
+            <div class="grow grid grid-cols-12 gap-4 min-h-0">
+                <div class="col-span-4 card bg-white flex flex-col justify-center text-center">
+                    <p class="text-sm font-bold text-red-700 mb-2">통합 긴급 번호</p>
+                    <p class="text-7xl font-black text-red-600 leading-none">999</p>
+                    <p class="text-slate-500 mt-3">의료 · 범죄 · 화재 공통</p>
+                </div>
+                <div class="col-span-8 grid grid-cols-2 gap-3">
+                    <div class="card"><h3 class="font-black mb-2">Macau Union Hospital</h3><p class="text-sm text-slate-600 leading-relaxed">澳門協和醫院 · 진료 09:00–21:00<br>비교적 빠른 응급 대기 · <strong>24시간 응급 서비스</strong></p></div>
+                    <div class="card"><h3 class="font-black mb-2">정부병원 (São Januário)</h3><p class="text-sm text-slate-600 leading-relaxed">Estr. do Visc. de São Januário<br>응급실 24시간 <strong>+853 2831-3731</strong></p></div>
+                    <div class="card"><h3 class="font-black mb-2">경찰 관서</h3><p class="text-sm text-slate-600 leading-relaxed">마카오 경찰 본부(반도) · 타이파 경찰서<br><strong>+853 2857 3333</strong></p></div>
+                    <div class="card"><h3 class="font-black mb-2">코타이 소방서</h3><p class="text-sm text-slate-600 leading-relaxed">스트립 인근 · <strong>+853 2883 9680</strong><br>대피 시 엘리베이터 금지, 계단 이용</p></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 19 안전 3 한인회 영사 대처 -->
+        <section class="slide bg-white" id="safety-action" data-title="상황별 대처">
+            <p class="k-label text-red-600 mb-2">RESPONSE</p>
+            <h2 class="text-slate-800 mb-4">한인회 · 영사 · 상황별 대처</h2>
+            <div class="grid grid-cols-3 gap-3 mb-4">
+                <div class="card bg-slate-50"><p class="text-xs font-bold text-slate-500 mb-1">마카오 한인회</p><p class="font-black">이동섭 회장</p><p class="text-blue-700 font-bold">+853-6662-3244</p><p class="text-xs text-slate-500 mt-2">긴급 통역 · 한인 업체 안내 · 긴급 시에만</p></div>
+                <div class="card bg-slate-50"><p class="text-xs font-bold text-slate-500 mb-1">주홍콩대한민국총영사관</p><p class="font-black">근무 +852 2529 4141</p><p class="text-blue-700 font-bold">긴급 +852 9731-0092</p></div>
+                <div class="card bg-slate-50"><p class="text-xs font-bold text-slate-500 mb-1">마카오 주재 영사협력원</p><p class="font-black">+853-6251-3400</p><p class="text-sm text-slate-600 mt-1">lim.stephano@gmail.com</p></div>
+            </div>
+            <div class="grow grid grid-cols-4 gap-3">
+                <div class="card"><h3 class="font-black mb-2">여권 분실</h3><ol class="text-sm text-slate-600 space-y-1 list-decimal ml-4"><li>경찰 신고 · 분실증명서</li><li>영사관 연락 · 여행증명서</li></ol></div>
+                <div class="card"><h3 class="font-black mb-2">의료 / 응급</h3><ol class="text-sm text-slate-600 space-y-1 list-decimal ml-4"><li>999 구급 요청</li><li>여행자보험 긴급센터</li></ol></div>
+                <div class="card"><h3 class="font-black mb-2">범죄 피해</h3><ol class="text-sm text-slate-600 space-y-1 list-decimal ml-4"><li>999 신고</li><li>한인회/영사관 통역·법률</li></ol></div>
+                <div class="card"><h3 class="font-black mb-2">자연재해</h3><ol class="text-sm text-slate-600 space-y-1 list-decimal ml-4"><li>호텔·당국 안내에 따라 대피</li><li>한인회/영사관에 상황 통보</li></ol></div>
+            </div>
+        </section>
+
+        <!-- 20 비상연락 Tourmaker -->
+        <section class="slide bg-red-50" id="contact" data-title="비상연락망">
+            <p class="k-label text-red-600 mb-2">SAFETY FIRST</p>
+            <h2 class="text-slate-800 mb-4">참가자를 위한 안전 지원망</h2>
+            <div class="grow grid grid-cols-12 gap-5 min-h-0">
+                <div class="col-span-7 card flex flex-col">
+                    <h3 class="font-black text-xl text-red-800 mb-3">T-safe24 디지털 매뉴얼</h3>
+                    <p class="text-slate-600 mb-4 leading-relaxed">자유 시간 또는 긴급 상황 시 인근 병원/경찰서 확인과 위치 공유를 지원합니다. 스마트폰으로 바로 활용할 수 있습니다.</p>
+                    <div class="grid grid-cols-3 gap-3 mb-4">
+                        <div class="bg-red-50 rounded-xl p-4 text-center font-bold text-sm">인근 응급시설 확인</div>
+                        <div class="bg-red-50 rounded-xl p-4 text-center font-bold text-sm">인솔자 위치 공유</div>
+                        <div class="bg-red-50 rounded-xl p-4 text-center font-bold text-sm">다국어 1-Click 보드</div>
+                    </div>
+                    <a href="https://indadady.github.io/T-safe24" target="_blank" class="mt-auto inline-flex justify-center bg-red-600 text-white font-bold py-3 rounded-xl">T-safe24 시스템 바로가기</a>
+                </div>
+                <div class="col-span-5 bg-slate-800 text-white rounded-2xl p-6 flex flex-col justify-center">
+                    <p class="text-blue-300 text-xs font-bold mb-2">현장 총괄 인솔 및 상황실</p>
+                    <h3 class="font-black text-2xl mb-5">연수 담당 상황실</h3>
+                    <div class="bg-white/10 rounded-xl p-4 mb-3 border border-white/15"><p class="text-xs text-slate-300">연수 담당 / 인솔 총괄</p><p class="text-xl font-black">조혁 이사 010-4249-4026</p></div>
+                    <div class="bg-white/10 rounded-xl p-4 mb-3 border border-white/15"><p class="text-xs text-slate-300">투어메이커 대표 / 현장 총괄</p><p class="text-xl font-black">이재명 대표 010-9443-7881</p></div>
+                    <div class="bg-white/10 rounded-xl p-4 border border-white/15"><p class="text-xs text-slate-300">현지 가이드</p><p class="font-bold">현지 가이드 · 미정 (추후 안내)</p></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 21 체크포인트 -->
+        <section class="slide bg-slate-50" id="safety-check" data-title="안전 체크포인트">
+            <p class="k-label text-red-600 mb-2">CHECKPOINTS</p>
+            <h2 class="text-slate-800 mb-4">안전한 마카오 여행을 위한 체크포인트</h2>
+            <div class="grow grid grid-cols-3 gap-5">
+                <div class="card flex flex-col justify-center"><div class="text-3xl mb-3">🧳</div><h3 class="font-black text-xl mb-2">여행자보험</h3><p class="text-slate-600">출발 전 가입 여부와 긴급지원 번호를 확인해 주세요. 의료 상황 시 999 이후 보험사 안내를 받습니다.</p></div>
+                <div class="card flex flex-col justify-center"><div class="text-3xl mb-3">📱</div><h3 class="font-black text-xl mb-2">연락처 휴대</h3><p class="text-slate-600">호텔명(Broadway Hotel Macau), 인솔자 번호, 999, 한인회·영사 연락처를 스마트폰에 저장해 주세요.</p></div>
+                <div class="card flex flex-col justify-center"><div class="text-3xl mb-3">🤝</div><h3 class="font-black text-xl mb-2">침착한 대응</h3><p class="text-slate-600">긴급 상황에서는 인솔자·가이드에게 먼저 알리고, 필요한 경우 한인회/영사관의 도움을 요청합니다. 현지 법규와 문화를 존중합니다.</p></div>
+            </div>
+        </section>
+
+        <!-- 22 ESG -->
+        <section class="slide bg-emerald-800 text-white" id="esg" data-title="ESG">
+            <p class="k-label text-emerald-200 mb-2">PAPERLESS DX</p>
+            <h2 class="mb-3">단순한 연수를 넘어 모범적인 ESG 실천으로</h2>
+            <p class="text-emerald-100 mb-6 max-w-4xl">종이 자료 대신 스마트 가이드북을 활용해 탄소 중립과 디지털 전환의 모범 사례를 함께 만듭니다.</p>
+            <div class="grow grid grid-cols-3 gap-5">
+                <div class="bg-white/10 border border-white/20 rounded-2xl p-8 text-center flex flex-col justify-center"><p class="text-emerald-100 text-sm mb-2">1인당 종이 절감</p><p class="text-6xl font-black">8<span class="text-2xl">장</span></p></div>
+                <div class="bg-white/10 border border-white/20 rounded-2xl p-8 text-center flex flex-col justify-center"><p class="text-emerald-100 text-sm mb-2">탄소 배출 감소</p><p class="text-6xl font-black">38<span class="text-2xl">g</span></p></div>
+                <div class="bg-white/10 border border-white/20 rounded-2xl p-8 text-center flex flex-col justify-center"><p class="text-emerald-100 text-sm mb-2">물 절약 효과</p><p class="text-6xl font-black">75<span class="text-2xl">L</span></p></div>
+            </div>
+        </section>
+
+        <!-- 23 영상 -->
+        <section class="slide bg-slate-950 text-white" id="videos" data-title="홍보영상">
+            <p class="k-label text-amber-300 mb-2">PREVIEW</p>
+            <h2 class="mb-3 font-[Nanum_Myeongjo]">마카오를 영상으로 만나다</h2>
+            <div class="grow grid grid-cols-2 gap-5 min-h-0">
+                <article class="bg-white/5 border border-white/10 rounded-2xl overflow-hidden flex flex-col">
+                    <div class="aspect-video bg-black grow">
+                        <iframe class="w-full h-full" src="https://www.youtube-nocookie.com/embed/y3KotXyCAnM" title="Experience Macao Limited Edition" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                    <div class="p-4"><p class="text-amber-300 text-xs font-bold">마카오정부관광청</p><h3 class="font-bold">Experience Macao Limited Edition</h3></div>
+                </article>
+                <article class="bg-white/5 border border-white/10 rounded-2xl overflow-hidden flex flex-col">
+                    <div class="aspect-video bg-black grow">
+                        <iframe class="w-full h-full" src="https://www.youtube-nocookie.com/embed/dDbTpqDWvz0" title="It's Fun! It's Macao!" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                    <div class="p-4"><p class="text-amber-300 text-xs font-bold">마카오정부관광청</p><h3 class="font-bold">It’s Fun! It’s Macao!</h3></div>
+                </article>
+            </div>
+        </section>
+
+        <!-- 24 마무리 -->
+        <section class="slide hero-slide" id="closing" data-title="마무리">
+            <span class="bg-white/10 text-blue-200 text-xs px-3 py-1 rounded-full font-bold mb-5 border border-white/20">THANK YOU</span>
+            <h2 class="text-4xl xl:text-5xl font-[Nanum_Myeongjo] mb-6">함께 만드는 선진 서비스의 여정</h2>
+            <p class="text-slate-100 text-lg max-w-3xl leading-relaxed mb-4">이번 연수에서 경험하고 느끼신 점은 강원랜드와 협력사 모두의 서비스 품질을 한 단계 발전시키는 밑거름이 됩니다.</p>
+            <p class="text-slate-100 text-lg max-w-3xl leading-relaxed mb-8">귀국 후 만족도 설문에 솔직한 의견을 들려주세요. 작은 의견 하나하나가 강원랜드가 한 단계 더 도약하는 힘이 됩니다.</p>
+            <div class="flex items-center gap-6 bg-black/35 border border-white/15 rounded-2xl px-6 py-4">
+                <img src="assets/images/guidebook-qr.png" alt="스마트 가이드북 QR" class="w-24 h-24 bg-white rounded-lg p-1">
+                <div class="text-left">
+                    <p class="font-black">참가자용 스마트 가이드북</p>
+                    <p class="text-sm text-white/80 mt-1">QR 스캔 또는 indadady.github.io/261124_Macao</p>
+                    <p class="text-sm text-yellow-300 mt-2">비상연락 조혁 이사 010-4249-4026 · 이재명 대표 010-9443-7881</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script>
+        const slides = Array.from(document.querySelectorAll('.slide'));
+        let idx = 0;
+        const toc = document.getElementById('toc');
+
+        function seoulYmd() {
+            const q = new URLSearchParams(location.search).get('test_date');
+            if (q && /^\d{4}-\d{2}-\d{2}$/.test(q)) return q;
+            return new Intl.DateTimeFormat('en-CA', {
+                timeZone: 'Asia/Seoul', year: 'numeric', month: '2-digit', day: '2-digit'
+            }).format(new Date());
+        }
+        function dayDiff(fromYmd, toYmd) {
+            const [fy, fm, fd] = fromYmd.split('-').map(Number);
+            const [ty, tm, td] = toYmd.split('-').map(Number);
+            return Math.round((Date.UTC(ty, tm - 1, td) - Date.UTC(fy, fm - 1, fd)) / 86400000);
+        }
+        function updateDday() {
+            const today = seoulYmd();
+            const start = '2026-11-24';
+            const end = '2026-11-27';
+            const badge = document.getElementById('d-day-badge');
+            const hero = document.getElementById('hero-date');
+            const before = dayDiff(today, start);
+            const afterEnd = dayDiff(end, today);
+            if (before > 0) {
+                badge.textContent = 'D-' + before;
+                hero.textContent = '1차 2026.11.24(화)~11.27(금) · 2차 11.30(월)~12.03(목) | 3박 4일';
+            } else if (afterEnd <= 0) {
+                const n = dayDiff(start, today) + 1;
+                badge.textContent = '📍 ' + n + '일차 진행중';
+                badge.className = 'bg-red-600 text-white text-[10px] px-2.5 py-1 rounded-full font-bold';
+                hero.textContent = '현재 강원랜드 협력사 마카오 연수 ' + n + '일차가 진행 중입니다.';
+            } else {
+                badge.textContent = '🏁 여정 종료';
+                badge.className = 'bg-slate-500 text-white text-[10px] px-2.5 py-1 rounded-full font-bold';
+                hero.textContent = '모든 연수 일정이 마무리되었습니다. 함께해 주셔서 감사합니다.';
+            }
+        }
+
+        function renderToc() {
+            document.getElementById('toc-list').innerHTML = slides.map((s, i) =>
+                `<button type="button" onclick="go(${i}); toggleToc();" class="text-left px-3 py-2 rounded-lg hover:bg-blue-50 border border-slate-100 text-sm font-bold">${i + 1}. ${s.dataset.title}</button>`
+            ).join('');
+        }
+        function go(n) {
+            idx = Math.max(0, Math.min(slides.length - 1, n));
+            slides.forEach((s, i) => s.classList.toggle('active', i === idx));
+            document.getElementById('slide-num').textContent = (idx + 1) + ' / ' + slides.length;
+            document.getElementById('slide-label').textContent = slides[idx].dataset.title || '';
+            document.getElementById('progress').style.width = ((idx + 1) / slides.length * 100) + '%';
+            history.replaceState(null, '', '#' + slides[idx].id);
+        }
+        function nextSlide() { go(idx + 1); }
+        function prevSlide() { go(idx - 1); }
+        function toggleToc() { toc.classList.toggle('open'); }
+
+        document.addEventListener('keydown', (e) => {
+            if (['INPUT', 'TEXTAREA'].includes(e.target.tagName)) return;
+            if (e.key === 'ArrowRight' || e.key === ' ' || e.key === 'PageDown') { e.preventDefault(); nextSlide(); }
+            if (e.key === 'ArrowLeft' || e.key === 'PageUp') { e.preventDefault(); prevSlide(); }
+            if (e.key === 'Home') { e.preventDefault(); go(0); }
+            if (e.key === 'End') { e.preventDefault(); go(slides.length - 1); }
+            if (e.key === 'o' || e.key === 'O') toggleToc();
+            if (e.key === 'f' || e.key === 'F') {
+                if (!document.fullscreenElement) document.documentElement.requestFullscreen();
+                else document.exitFullscreen();
+            }
+            if (e.key === 'Escape' && toc.classList.contains('open')) toggleToc();
+        });
+
+        document.querySelector('.deck').addEventListener('click', (e) => {
+            if (e.target.closest('a, button, iframe, .toc')) return;
+            const x = e.clientX / window.innerWidth;
+            if (x > 0.62) nextSlide();
+            else if (x < 0.38) prevSlide();
+        });
+
+        let touchX = null;
+        document.addEventListener('touchstart', (e) => { touchX = e.changedTouches[0].clientX; }, { passive: true });
+        document.addEventListener('touchend', (e) => {
+            if (touchX == null) return;
+            const dx = e.changedTouches[0].clientX - touchX;
+            if (dx < -50) nextSlide();
+            if (dx > 50) prevSlide();
+            touchX = null;
+        }, { passive: true });
+
+        updateDday();
+        renderToc();
+        const hash = location.hash.replace('#', '');
+        const startIdx = slides.findIndex((s) => s.id === hash);
+        go(startIdx >= 0 ? startIdx : 0);
+    </script>
+</body>
+</html>
